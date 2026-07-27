@@ -1,5 +1,13 @@
 # Assignment 6 — Weather Condition Classification using SVM and Open-Meteo API
 
+## Details
+
+- Name : Shubhdeep Singh
+- Application No. : IN26011804
+- College Reg. No. : 23BCE11460
+- Batch No. : 1(A)
+- Email Id : shubhdeep.23bce11460@vitbhopal.ac.in
+
 ## Objective
 Build a Support Vector Machine (SVM) classification model that predicts whether the weather is **Warm**
 (Temperature ≥ 25°C) or **Cool** (Temperature < 25°C), using live meteorological observations — temperature,
