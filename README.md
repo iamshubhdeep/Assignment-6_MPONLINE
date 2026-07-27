@@ -69,9 +69,8 @@ relative humidity, surface pressure, and wind speed — fetched from the free Op
    humidity/pressure/wind noise is most likely to push a borderline point across the boundary.
 
 ## Conclusion
-This assignment demonstrated an end-to-end pipeline for classifying weather conditions as Warm or Cool using
-live data from the Open-Meteo API and a Support Vector Machine with an RBF kernel. The model achieved high
-accuracy on held-out test data, showing temperature-driven weather categories are largely separable once
+For classifying weather conditions as Warm or Cool using live data from the Open-Meteo API and a Support Vector Machine with an RBF kernel. 
+The model achieved high accuracy on held-out test data, showing temperature-driven weather categories are largely separable once
 humidity, pressure, and wind speed are included as supporting features. Feature scaling proved essential:
 since SVM classifies based on distances (and RBF measures similarity via those distances), unscaled features
 like surface pressure would otherwise dominate over smaller-scale features like wind speed and distort the
